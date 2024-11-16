@@ -1,7 +1,7 @@
-function sharePizza(slices, people) {
+function sharePizza(slices, people) { // Function that take in 2 parameters (slices, people)
     let pizzaPerPerson = slices / people;
 
-    let result = Math.ceil(pizzaPerPerson); // rounds up the slices of pizza to whole number
+    let result = Math.ceil(pizzaPerPerson); // rounds up the pizzaPerPerson to whole number
 
     console.log(`Each person gets ${result} slicec of pizza; from our ${slices} slice pizza`);
 }
